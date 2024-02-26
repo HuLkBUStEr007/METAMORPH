@@ -18,7 +18,7 @@ contract ContractY {
     // ContractY implementation
 }
 
-contract ContractFactory {
+contract Metamorph {
     // Internal function to create a contract using create2 opcode, allowing for deterministic deployment.
     function create2(uint256 value, bytes32 salt, bytes memory bytecode) internal returns (address) {
         address created;
